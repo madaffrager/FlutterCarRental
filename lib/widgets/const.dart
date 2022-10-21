@@ -1,0 +1,315 @@
+import 'package:flutter/material.dart';
+
+const ksecondary = Color(0xffdab6fc);
+List<String> marqueList = [
+  'PEUGEOT',
+  'RENAULT',
+  'DACIA',
+  'CITROEN',
+  'FORD',
+  'OPEL',
+  'SUZUKI',
+  'KIA',
+  'HYUNDAI',
+  'HONDA',
+  'FIAT',
+  'SKODA',
+  'VOLKSWAGEN',
+  'TOYOTA',
+  'ALFAROMEO',
+  'AUDI',
+  'BMW',
+  'MERCEDES',
+  'MAZDA',
+  'NISSAN'
+];
+List<String> peugeot = [
+  '108',
+  '208',
+  '308',
+  '301',
+  '508',
+  '1008',
+  '2008',
+  '3008',
+  '5008',
+  'Boxer',
+  'Expert',
+  'Rifter',
+  'Traveller',
+  'Partner'
+];
+List<String> renault = [
+  'Clio4',
+  'Clio5',
+  'Captur',
+  'Megane',
+  'Megane SEDAN',
+  'Express',
+  'Kadjar',
+  'TalisMan',
+  'Koleos',
+  'Kangoo'
+];
+List<String> dacia = [
+  'Logan',
+  'Sandero',
+  'Sandero StepWay',
+  'Duster',
+  'Lodgy',
+  'Dokker',
+  'Dokker VAN'
+];
+List<String> citroen = [
+  'C1',
+  'C2',
+  'C3',
+  'C4',
+  'C5',
+  'C6',
+  'C4 Cactus',
+  'C4 spacetouer',
+  'C5 Aircross',
+  'Berlingo',
+  'Berlingo Multispace',
+  'DS3 Crossback',
+  'DS7 Crossback',
+  'DS7 Crossback E-Tense',
+  'E-C4',
+  'E-Jumpy',
+  'E-Mehari',
+  'E-Spacetourer',
+  'Grand C4 Spacetourer',
+  'Jumper Combi',
+  'Jumper utilitaire'
+];
+List<String> ford = [
+  'Fiesta',
+  'Focus',
+  'Kuga',
+  'Mondeo',
+  'Puma',
+  'Mustang Match-e',
+  'Ranger',
+  'Toureneo Courier',
+  'S-Max',
+  'Transit'
+];
+List<String> opel = [
+  "Corsa",
+  "Astra",
+  "Combo Cargo",
+  "Combo 4 Life",
+  "Crossland",
+  "Crossland X",
+  "Grandland",
+  "Grandland X",
+  "Mokka",
+  "Movano"
+];
+List<String> suzuki = [
+  "Across",
+  "Ignis",
+  "Jimny",
+  "Swace",
+  "Swift",
+  "Sx4 S-Cross",
+  "Vitara",
+  "Alto",
+  "Baleno",
+  "Kizashi"
+];
+List<String> kia = [
+  "Picanto",
+  "Rio",
+  "Ceed",
+  "E-niro",
+  "E-Soul",
+  "Ev6",
+  "Niro",
+  "Proceed",
+  "Soul",
+  "Sorento",
+  "Stinger",
+  "Sportage",
+  "Stonic",
+  "Xceed",
+  "Carens",
+  "Opirus",
+  "Optima",
+  "Cross"
+];
+List<String> hyundai = [
+  "I10",
+  "I20",
+  "I30",
+  "I40",
+  "Bayon",
+  "Grand SantaFe",
+  "Ioniq",
+  "Kona",
+  "StantaFe",
+  "Nexo",
+  "Tucson",
+  "Accent",
+  "Atos",
+  "Elantra",
+  "Genesis",
+  "H1 Van",
+  "Ix35"
+];
+List<String> honda = ["Accord", "Civic", "Cr-V", "Hr-V", "Jazz", "Cr-Z"];
+List<String> fiat = [
+  "500",
+  "500 L",
+  "500 X",
+  "Doblo Cargo",
+  "Ducato",
+  "Fiorino",
+  "Panda",
+  "Punto",
+  "Talento",
+  "Tipo"
+];
+List<String> skoda = [
+  "Enyaq",
+  "Fabia",
+  "Kamiq",
+  "Karoq",
+  "Kodiaq",
+  "Octavia",
+  "Scala",
+  "Superb",
+  "Yeti"
+];
+List<String> volkswagen = [
+  "Amarok",
+  "Arteon",
+  "Caddy",
+  "California",
+  "Crafter",
+  "Golf",
+  "Passat",
+  "Polo",
+  "T-roc",
+  "T-cross",
+  "Tiguan",
+  "Touran",
+  "Touareg",
+  "Transporter"
+];
+List<String> toyota = [
+  "Avensis",
+  "Auris",
+  "Aygo",
+  "C-hr",
+  "Corolla",
+  "Gt86",
+  "Highlander",
+  "Hilux",
+  "Land Cruiser",
+  "Mirai",
+  "Prius",
+  "Proace",
+  "Proace City",
+  "Rav4",
+  "Yaris",
+  "Yaric Cross"
+];
+List<String> alfaromeo = ["Giulia", "Giulietta", "Stelvio", "Tonale", "Gloria"];
+List<String> audi = [
+  "A1",
+  "A2",
+  "A3",
+  "A4",
+  "A5",
+  "A6",
+  "A7",
+  "A8",
+  "E-tron",
+  "E-tron GT",
+  "E-tron Sportback",
+  "Q2",
+  "Q3",
+  "Q5",
+  "Q7",
+  "Q8",
+  "R8",
+  "RS 3",
+  "RS 4",
+  "RS 5",
+  "RS 7",
+  "TT",
+  "RS Q3",
+  "RS Q5",
+  "RS Q7",
+  "RS Q8"
+];
+List<String> bmw = [
+  "I3",
+  "I3s",
+  "I4",
+  "I8",
+  "Ix",
+  "Ix3",
+  "Serie 1",
+  "Serie 2",
+  "Serie 3",
+  "Serie 3 GT",
+  "Serie 4",
+  "Serie 5",
+  "Serie 6",
+  "Serie 7",
+  "Serie 8",
+  "X1",
+  "X2",
+  "X3",
+  "X4",
+  "X5",
+  "X6",
+  "X7",
+  "Z4",
+  "Mini Coper"
+];
+List<String> mercedes = [
+  "709",
+  "Citan",
+  "CLA",
+  "Classe A",
+  "Classe B",
+  "Classe C",
+  "Classe CLS",
+  "Classe E",
+  "Classe G",
+  "Classe GLK",
+  "Classe S",
+  "Classe V",
+  "Classe X",
+  "Eqa",
+  "Eqt",
+  "Eqv",
+  "GLA",
+  "GLB",
+  "GLC",
+  "GLE",
+  "Sprinter",
+  "Vito",
+  "Eqc"
+];
+List<String> mazda = ["2", "3", "6", "Cx-3", "Cx-5", "Mx-30", "Mx5"];
+List<String> nissan = [
+  "Ariya",
+  "Evalia",
+  "GT-r",
+  "Juke",
+  "Leaf",
+  "Micra",
+  "Navara",
+  "NP300",
+  "NV200",
+  "Qashqai",
+  "X-trail",
+  "Kubistar"
+];
+
+const kprimary = Color(0xff757bc8);
